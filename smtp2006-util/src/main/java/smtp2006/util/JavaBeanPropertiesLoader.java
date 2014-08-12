@@ -14,13 +14,10 @@ import org.slf4j.LoggerFactory;
  * 
  * <pre>
  * <ul>
- *  <li>1,普通属性通过调用set方法即可<li>
- *  <li>1,普通属性通过调用set方法即可<li>
+ *  <li>1. 普通属性通过调用set方法即可<li>
+ *  <li>2. 对于嵌套属性, 在BeanUtilsBean的基础上扩展, 当嵌套属性=null时, 提前初始化<li>
  * </ul>
- * 
  * </pre>
- * 
- * 
  * 
  * @Email smtp2006@126.com
  * @Date 2014年8月12日 上午10:02:42
